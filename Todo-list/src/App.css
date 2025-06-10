@@ -2,6 +2,7 @@
 
 :root {
   font-family: "Inter", sans-serif;
+  background-color: rgb(235, 230, 223);
 }
 
 .menu-icon {
@@ -22,13 +23,14 @@ header {
   gap: 30px;
 }
 
-.inputs {
+form {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
   height: 300px;
+  gap: 30px;
 }
+
 input {
   width: 300px;
   height: 35px;
@@ -43,6 +45,15 @@ button {
   color: white;
   border: none;
 }
-button .placeholder {
-  color: white;
+
+.tasks {
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+
+  gap: 10px;
+}
+
+.done-task {
+  text-decoration: line-through;
 }
